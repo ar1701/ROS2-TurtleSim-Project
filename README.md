@@ -13,7 +13,7 @@ This project demonstrates:
 
 ## Demo
 
-![Turtle Catch Game Demo](turtle.gif)
+![Turtle Catch Game Demo](./turtle.gif)
 
 *In this demo, the blue turtle is controlled by the user while other colored turtles spawn randomly. The goal is to catch them all!*
 
