@@ -11,6 +11,12 @@ This project demonstrates:
 - Random turtle spawning mechanics
 - Collision detection implementation
 
+## Demo
+
+![Turtle Catch Game Demo](turtle.gif)
+
+*In this demo, the blue turtle is controlled by the user while other colored turtles spawn randomly. The goal is to catch them all!*
+
 ## Prerequisites
 
 - Ubuntu 22.04 (or compatible OS)
@@ -33,6 +39,12 @@ turtle_catch/
 │   └── collision_detector.py
 ├── launch/
 │   └── turtle_catch.launch.py
+├── docs/
+│   └── images/
+│       ├── turtle_catch_demo.gif
+│       ├── game_start.gif
+│       ├── catching.gif
+│       └── game_over.gif
 ├── package.xml
 ├── setup.py
 └── setup.cfg
@@ -102,48 +114,4 @@ The following parameters can be configured in the launch file:
 
 ### Subscribed Topics
 - `/turtle1/pose` (turtlesim/msg/Pose): Main turtle position
-- `/other_turtles/poses` (turtlesim/msg/Pose[]): Other turtles' positions
-
-## Services
-
-- `/spawn`: Spawns new turtles
-- `/kill`: Removes caught turtles
-- `/reset`: Resets the game
-
-## Custom Messages
-
-- `TurtleScore.msg`: Contains current score and remaining turtles
-- `GameState.msg`: Overall game state information
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-
-## Acknowledgments
-
-- ROS2 Community
-- TurtleSim package developers
-- All contributors to this project
-
-## Troubleshooting
-
-### Common Issues
-
-1. Turtles not spawning:
-   - Check if the spawn service is running
-   - Verify spawn_interval parameter
-
-2. Control issues:
-   - Ensure keyboard input node is running
-   - Check terminal focus
-
-3. Collision not detecting:
-   - Verify catch_distance parameter
-   - Check if pose topics are being published
-
-For additional issues, please check the GitHub issues page or create a new issue.
+- `/other_turtles/poses` (turtlesim/msg/Pose
