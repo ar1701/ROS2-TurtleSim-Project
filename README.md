@@ -1,4 +1,4 @@
-# ROS2 Turtle Catch Game
+# ROS2 (Humble) Turtle Catch Game 
 
 A fun and interactive ROS2 project where one turtle needs to catch randomly spawning turtles in the TurtleSim environment. The main turtle is controlled by the user, and the goal is to catch all the randomly appearing turtles.
 
