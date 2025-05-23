@@ -19,7 +19,7 @@ This project demonstrates:
 
 ## Prerequisites
 
-- Ubuntu 22.04 (or compatible OS)
+- Ubuntu 22.04 
 - ROS2 Humble Hawksbill
 - Python 3.10 or later
 - TurtleSim package
